@@ -6,7 +6,7 @@
 
 Site institucional da academia **Shurikan Karate-Do Shotokan Ryu**, fundada em 14/11/2020 em São Paulo.
 
-[**Ver o site**](https://carolsant13.github.io/shurikan-karate/) · [Instagram](https://instagram.com/shurikan.karate)
+[**Ver o site**]() · [Instagram](https://instagram.com/shurikan.karate)
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
@@ -48,46 +48,6 @@ shurikan-karate/
     └── img/
         └── logo.png
 ```
-
-## Como editar
-
-| O que mudar                         | Onde                                                        |
-| ----------------------------------- | ----------------------------------------------------------- |
-| WhatsApp, Instagram e endereço      | `js/config.js` (o site inteiro é atualizado a partir dele)  |
-| Textos, horários e faixas           | Direto no `index.html`                                      |
-| Cores                               | Variáveis no início de `css/style.css` (`--red`, `--black` etc.) |
-
-Exemplo de `js/config.js`:
-
-```js
-window.SITE_CONFIG = {
-  whatsapp: "5511999998888",      // só números: 55 + DDD + número
-  phoneDisplay: "(11) 99999-8888",
-  instagram: "shurikan.karate",   // sem o @
-  address: "Rua, número - Bairro, Cidade - UF, CEP",
-};
-```
-
-## Rodar localmente
-
-Abra o `index.html` direto no navegador, ou suba um servidor simples:
-
-```bash
-python -m http.server 8000
-```
-
-Depois acesse <http://localhost:8000>.
-
-## Publicar no GitHub Pages
-
-1. No repositório, abra **Settings → Pages**.
-2. Em **Source**, selecione **Deploy from a branch**, branch `main` e pasta `/ (root)`.
-3. Salve. Em alguns minutos o site fica disponível em
-   <https://carolsant13.github.io/shurikan-karate/>.
-
-Cada novo `git push` na branch `main` atualiza o site automaticamente.
-
-> **Domínio próprio:** para usar algo como `shurikankarate.com.br`, configure em **Settings → Pages → Custom domain** e aponte o DNS do domínio para o GitHub Pages.
 
 ---
 
