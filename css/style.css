@@ -176,11 +176,10 @@ dd {
   width: 100%;
 }
 
-.btn-sensei{
+.btn-sensei {
   margin-top: 3.5rem;
   width: 90%;
 }
-
 
 /* ---------- Títulos ---------- */
 .eyebrow {
@@ -699,7 +698,7 @@ dd {
   box-shadow: inset 0 0 0 1px rgba(242, 241, 238, 0.3);
 }
 
-.desc_belt{
+.desc_belt {
   font-size: 0.75rem;
   margin-top: -1.3rem;
 }
@@ -1003,7 +1002,7 @@ dd {
     width: min(84vw, 350px);
   }
 
-  .eyebrow{
+  .eyebrow {
     margin-top: 1em;
   }
 
@@ -1036,7 +1035,7 @@ dd {
   .slot {
     min-height: 0;
   }
-  .btn-sensei{
+  .btn-sensei {
     width: 100%;
   }
 }
@@ -1070,6 +1069,17 @@ dd {
   .cta__kanji {
     right: -10px;
     font-size: 7rem;
+  }
+}
+
+@media (max-width: 411px) {
+  .dojo__kanji {
+    font-size: 40px;
+  }
+
+  .dojo__media::before {
+    width: 29%;
+    top: 6%;
   }
 }
 
