@@ -6,7 +6,7 @@
 
 Site institucional da academia **Shurikan Karate-Do Shotokan Ryu**, fundada em 14/11/2020 em São Paulo.
 
-[**Ver o site**]() · [Instagram](https://instagram.com/shurikan.karate)
+[**Ver o site**](https://shurikan-karate.vercel.app) · [Instagram](https://instagram.com/shurikan.karate)
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
